@@ -1,0 +1,13 @@
+{
+  "travel_frequency": "MONTH_ONCE",
+  "travel_styles": ["GOURMET", "NATURE"],
+  "travel_purposes": ["HEALING"],
+  "activity_style": "SPONTANEOUS",
+  "cuisine_types": ["JAPANESE", "SEAFOOD", "LOCAL"],
+  "budget_preference": "REASONABLE",
+  "dietary_restrictions": ["NO_SPICY"],
+  "beverage_types": ["SAKE", "BEER"],
+  "dining_styles": ["LOCAL", "HIDDEN"],
+  "activity_interests": ["ONSEN", "PHOTO", "GOURMET"],
+  "custom_notes": "Loves cat cafes. Not a morning person."
+}
