@@ -218,20 +218,27 @@ python -m travel_planner.main --mode assistant \
 
 ### Planner Mode
 
+Planner mode is auto-detected when you pass any planner argument (`--query`, `--origin`, `--budget`, etc.) — no need for `--mode planner`.
+
 ```bash
-# With query
-python -m travel_planner.main --mode planner \
+# Auto-detected as planner mode
+python -m travel_planner.main \
   --query "Visit Tokyo for a week" \
   --origin "New York" \
   --budget "3000-5000"
 
 # With specific dates
-python -m travel_planner.main --mode planner \
+python -m travel_planner.main \
   --query "Osaka food trip" \
   --origin "Seoul" \
   --departure-date 2026-04-01 \
   --return-date 2026-04-07 \
   --travelers 2
+
+# Explicit mode also works
+python -m travel_planner.main --mode planner \
+  --query "Visit Kyoto temples" \
+  --origin "London"
 ```
 
 ### CLI Options
